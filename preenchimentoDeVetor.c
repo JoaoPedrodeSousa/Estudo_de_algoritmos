@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main(){
     int valorInicial, vetor[10];
 
