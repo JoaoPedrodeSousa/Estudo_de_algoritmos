@@ -76,3 +76,28 @@ int main() {
 }
 
 
+//Q-4
+#include <stdio.h>
+
+int main() {
+    double a = 1.05;
+    double b = 1.07;
+    double c = 1.08;
+    char funcao;
+    scanf("%i", &funcao);
+    
+    double salario;
+    scanf("%d", &salario);
+    
+    if(funcao == "a"){
+        salario *= a;    
+    } else if (funcao == "b"){
+        salario *= b;    
+    } else{
+        salario *= c;    
+    }
+
+    printf("R$ %d.2f\n",&salario);
+}
+
+
